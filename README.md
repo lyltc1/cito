@@ -114,6 +114,7 @@ In _2019 IEEE International Conference on Robotics and Automation (ICRA)_. IEEE.
 5. Interface for adding custom cost and constraint terms 
 
 ## ISSUES
-1. before cmake YAML, you should set the CmakeLists.txt "YAML_BUILD_SHARED_LIBS" from OFF to ON. in line 28 or so.
-2. in cito_ws,you need to make a new folder called logs.
+1. before cmake YAML, you should set the CmakeLists.txt "YAML_BUILD_SHARED_LIBS" from OFF to ON. in line 28 or so
+2. in cito_ws,you need to make a new folder called logs
 3. the environment variables MJ_KEY should be like /xx/xx/mjkey.txt
+4. you should download snopt-interface-master and make a new folder called lib to contain libsnopt7_cpp.a and libsnopt7_cpp.so
