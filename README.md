@@ -112,3 +112,7 @@ In _2019 IEEE International Conference on Robotics and Automation (ICRA)_. IEEE.
 3. Add alternative solver
 4. Virtual controls for successive convexification
 5. Interface for adding custom cost and constraint terms 
+
+## ISSUES
+1. before cmake YAML, you should set the CmakeLists.txt "YAML_BUILD_SHARED_LIBS" from OFF to ON. in line 28 or so.
+2. in cito_ws,you need to make a new folder called logs.
